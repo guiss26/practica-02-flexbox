@@ -1,0 +1,87 @@
+.border-solid{
+    border-style: solid;
+}
+
+.border-dashed{
+    border-style: dashed;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+.w-100{
+    width: 100px;
+}
+.w-300{
+    width: 300px;
+}
+
+.h-100{
+    height: 100px;
+}
+.display-inline{
+    display: inline;
+}
+
+.display-block{
+    display: block;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.pr-50{
+    padding-right: 50px;
+}
+
+.pl-50{
+    padding-left: 50px;
+}
+
+.p-total{
+    padding: 50px;
+}
+
+.px-100{/*por el eje de las x (izquierda y derecha)*/
+    padding: 0 100px;
+}
+
+.py-100{/*por el eje y arriba y abajo*/
+    padding: 100px 0;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.m-50{
+    margin: 50px;
+}
+
+.mx-100{
+    margin: 0 100px;
+}
+
+.my-100{
+    margin: 100px 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 32px;
+}
+h1{
+    font-size: 1rem;/*Se va a multiplicar por el tamaño base (16px)*/
+}

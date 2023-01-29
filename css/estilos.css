@@ -1,0 +1,28 @@
+h1{
+    font-size: 100px;
+    color: blue;
+} 
+#encabezado{
+    color: blueviolet;
+}
+
+p{
+    color: orange;
+    font-size: 30px;
+    background-color: #ffbd69;
+}
+
+#cuerpo{
+    color:aquamarine;
+    background-color: #ffbd;
+}
+#encabezado-seis{/*# para cuando se pone el id*/
+    color: red;
+}
+
+.text-danger{/*. para cuando se pone el id*/
+    color: red;
+}
+.bg-blue{
+    background-color: blue;
+}

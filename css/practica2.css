@@ -1,0 +1,88 @@
+/* primary: #264653
+   secondary: #2a9d8f
+   danger: #e76f51
+   info: #e9c46a */
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+}
+.btn-primary{
+    background-color: #264653;
+    color: white;
+}
+
+
+.btn-secondary{
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.btn-danger{
+    background-color: #e76f51;
+    color: black;
+}
+
+.btn-info{
+    background-color: #e9c46a;
+    color: black;
+}
+.logo{
+    text-decoration: none;
+    display: block;
+    font-size: 3rem; /*recomendable el font-size trabajarlo con el rem*/
+    text-align: center;
+    background-color:  #264653;
+    color: white;
+    padding: 1em;
+}
+
+.card{
+    width: 20rem;
+    background-color: #264653;
+    overflow: hidden;
+    color: white;
+    border-radius: 0.5rem;
+}
+.card-img{
+    width: 100%; /*Para que la imagen abarque el 100% del contenedor*/
+}
+.card-body{
+    padding: 1em;
+}
+
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 900;
+}
+
+.card-body p{
+    font-weight: 300;
+}

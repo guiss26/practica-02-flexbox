@@ -1,0 +1,50 @@
+div{
+    background-color: #383E56;
+}
+
+h1{
+    text-align: center;
+    color: #EEDAD1;
+    /*background-color: darkblue;*/
+}
+
+h6{
+   color: #EEDAD1; 
+   text-align: right;
+   padding-bottom: 25px;
+}
+#blanco{
+    color: white;
+    background-color: lightpink;
+}
+button{
+    text-decoration: none;
+    display:inline;
+    text-align: center;
+    color: #F69E7B;
+    background-color: #383E56;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*:hover button{
+    background-color: pink;
+}*/
+
+table{
+    background-color: #D4B5B0;
+}
+
+.masInfo{
+    text-decoration: none;
+    text-align: center;
+    background-color: #383E56;
+    color: white;
+}
+
+p{
+    background-color: #F69E7B;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

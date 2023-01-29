@@ -1,0 +1,95 @@
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.border{
+    border: 2px #000 solid;
+}
+
+/* .h-700{
+    height: 700px;
+} */
+
+/* .h-300{
+    height: 300px;
+    /* padding-top: 50px; */
+/*} */
+.h-200{
+    height: 200px;
+}
+.item{
+    background-color: peru;
+    text-align: center;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    /* width: 200px; */
+}
+
+.flex-container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+
+    /* flex-wrap:
+    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+
+    /* justify-content:
+    justify-content: center;  contenido en el centro
+    justify-content: space-between; espacio entre el contenido
+    justify-content: space-around; espaciado entre el contenido y el padding de izq a drch */
+    
+    /* justify-content: center; */
+
+    /* align-items: de forma horizontal
+    align-items: flex-start; se posicionan arriba del todo
+    align-items: flex-end; se posicionan al final del todo
+    align-items: center;
+    align-items: baseline; */
+
+     align-items: flex-end; 
+
+    /*align-content: de forma vertical
+    align-content: space-between;*/
+}
+.align-self-start{
+    align-self: flex-start;
+}
+
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.flex-shrink-0{
+    width: 300px; /*el ancho que configuremos de su elemento hijo, no se va a reducir, pero si se va agrandar por el flex grow*/
+    flex-shrink: 0;/*que no se achique más del los px establecidos*/
+}
+
+.flex-basis-1{
+    flex-basis: 50%;
+}
+
+.flex-1{
+    flex: 1;/*flex-grow*/
+}
+
+.flex-2{
+    flex: 1 0 300px;/*flex-shrink (0) flex basis (300px)*/
+}
